@@ -1,5 +1,6 @@
 package com.example.crud_spring.models;
 
+import jakarta.persistence.Id;
 import jakarta.validation.constraints.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;

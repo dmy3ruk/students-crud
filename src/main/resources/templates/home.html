@@ -115,7 +115,8 @@
 <body>
 <div class="header">
     <h3>Ласкаво просимо до списку студентів!</h3>
-    <p>Авторизований користувач: <span th:text="${username}">Admin</span> Роль: <span th:text="${isAdmin ? 'Admin' : 'User'}">Admin</span></p>
+    <span th:text="${isAdmin != null and isAdmin ? 'Admin' : 'User'}">Admin</span>
+    </p>
 </div>
 
 
